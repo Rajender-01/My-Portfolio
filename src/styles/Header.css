@@ -44,6 +44,6 @@
 @media (max-width: 767px) {
     .custom-shape-divider-bottom-1678880852 svg {
         width: calc(100% + 1.3px);
-        height: 72px;
+        height: 0px;
     }
 }
