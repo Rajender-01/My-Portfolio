@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&family=Secular+One&display=swap');
+
+@layer base {
+  body {
+   @apply font-[Outfit];
+  }
+}
+
+

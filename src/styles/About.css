@@ -1,0 +1,53 @@
+
+.outer-circle {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
+  border-radius: 50%;
+  animation: rotate 1.5s linear infinite;
+}
+.outer-circle span {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
+    border-radius: 50%;
+}
+
+span:nth-child(1) {
+    filter: blur(5px);
+}
+
+span:nth-child(2) {
+    filter: blur(5px);
+}
+
+
+.inner-circle {
+  height: 188px;
+  width: 188px;
+  position: absolute;
+  background: white;
+  top: 7px;
+  left: 6px;
+  border-radius: 50%;
+  z-index: 9;
+}
+ 
+
+@keyframes rotate {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(0deg);
+  }
+}
+
+
+ /* <section className="w-full h-96 grid place-items-center">
+        <div class="relative h-48 w-48 bg-gradient-to-b from-sky-400 via-yellow-400 to-pink-400 rounded-full duration-300 backdrop-hue-rotate-180 animate-spin ">
+          <div className="w-44 h-44 rounded-full top-2 left-2 absolute bg-white"></div>
+        </div>
+      </section> */
