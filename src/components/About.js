@@ -6,7 +6,7 @@ import v1 from '../Assets/v1.png'
 const About = () => {
   return (
     <>
-      <section name="profession" className="w-full h-screen grid place-items-center my-9 lg:my-6 max-w-4xl mx-auto">
+      <section name="profession" className="w-full h-full grid place-items-center my-9 lg:my-6 max-w-4xl mx-auto">
       <div className="grid place-items-start w-full p-10">
         <h1 className="text-left w-fit p-2 text-xl lg:text-2xl  border-4 border-t-0 rounded-xl border-sky-400 font-medium">PROFESSION</h1>
       </div>
