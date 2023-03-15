@@ -10,7 +10,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className='fixed w-full h-[65px] flex justify-between items-center px-12 bg-black z-10 text-gray-300 text-lg'>
+    <div className='fixed w-full h-[65px] flex justify-between items-center px-4 sm:px-12 bg-black z-10 text-gray-300 text-lg'>
       <div>
         <p>My Portfolio</p>
       </div>
@@ -30,7 +30,7 @@ const Navbar = () => {
       </div>
 
       {/* MOBILE MENU */}
-      <ul className={!nav ? 'hidden' : 'absolute top-0 right-0 w-44 h-[300px] pt-16 bg-black flex flex-col justify-center items-center'}>
+      <ul className={!nav ? 'hidden' : 'absolute top-0 right-0 w-44 h-[340px] pt-16 bg-black flex flex-col justify-center items-center'}>
         <li className='py-3 text-xl border-b-[1px] w-40 text-center cursor-pointer hover:text-sky-500 duration-300 '><Link onClick={handleClick} to='home' smooth={true} duration={500}>Home</Link></li>
         <li className='py-3 text-xl border-b-[1px] w-40 text-center cursor-pointer hover:text-sky-500 duration-300 '><Link onClick={handleClick} to='profession' smooth={true} duration={500}>Profession</Link></li>
         <li className='py-3 text-xl border-b-[1px] w-40 text-center cursor-pointer hover:text-sky-500 duration-300 '><Link onClick={handleClick} to='experience' smooth={true} duration={500}>Experience</Link></li>
