@@ -10,7 +10,7 @@ const Header = () => {
         {/* VIDEO */}
         <video className="object-cover w-full h-screen mix-blend-overlay" src={video} autoPlay muted loop />
         {/* TEXT */}
-        <div className="p-1 absolute w-72 h-auto sm:w-[37rem] lg:w-[45rem] text-white top-[50%] left-[50%] transform translate-x-[-50%] translate-y-[-50%] space-y-2">
+        <div className="p-1 absolute w-72 h-auto sm:w-[37rem] lg:w-[47rem] text-white top-[50%] left-[50%] transform translate-x-[-50%] translate-y-[-50%] space-y-2">
           <p className="text-sm sm:text-lg sm:font-medium">Hii My Name is</p>
           <h1 className="text-2xl sm:text-5xl lg:text-6xl uppercase font-medium sm:font-semibold"> <p className="text-sky-500"> Rajender Kumar</p></h1>
           <p className="text-2xl sm:text-5xl lg:text-6xl font-medium sm:font-semibold text-gray-200">I'm a Front-End Developer</p>
